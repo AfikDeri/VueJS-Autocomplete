@@ -7,7 +7,7 @@
 
 This project is made for my youtube tutorial on "Create a Vue.JS 2 Autocomplete Component".
 
-![App Example](https://media.giphy.com/media/9JkdzNeLr0Jos5CYQk/giphy.gif)
+![Autocomplete Component Example](https://media.giphy.com/media/33Iuj8rH9qCk2uoval/giphy.gif)
 
 ## get it up and running.
 
