@@ -64,6 +64,10 @@
         this.selectItem();
       },
       selectItem() {
+        if (!this.matches.length) {
+          return;
+        }
+
         this.selectedItem = this.matches[this.selected];
         this.visible = false;
 
