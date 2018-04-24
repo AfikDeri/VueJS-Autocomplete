@@ -1,6 +1,6 @@
 ## Video Chat Application Example
 
-[Youtube Tutorial link](https://www.youtube.com/watch?v=Jd1RW-0lQOs&t=13s)
+[Youtube Tutorial link](https://youtu.be/cuo9T6rc-VE)
 
 #### [@WeCodeTutorials](https://twitter.com/WeCodeTutorials)
 [![Logo](https://cdn.pbrd.co/images/HdwCut8.png)](https://www.youtube.com/channel/UCj9VatwdukZjNOnIKcpWcsA)
