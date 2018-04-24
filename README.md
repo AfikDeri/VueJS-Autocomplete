@@ -1,21 +1,26 @@
-# autocomplete
+## Video Chat Application Example
 
-> Vue.JS Autocomplete Component
+[Youtube Tutorial link](https://www.youtube.com/watch?v=Jd1RW-0lQOs&t=13s)
 
-## Build Setup
+#### [@WeCodeTutorials](https://twitter.com/WeCodeTutorials)
+[![Logo](https://cdn.pbrd.co/images/HdwCut8.png)](https://www.youtube.com/channel/UCj9VatwdukZjNOnIKcpWcsA)
+
+This project is made for my youtube tutorial on "Create a Vue.JS 2 Autocomplete Component".
+
+![App Example](https://media.giphy.com/media/9JkdzNeLr0Jos5CYQk/giphy.gif)
+
+## get it up and running.
 
 ``` bash
+# go into the project
+cd VueJS-Autocomplete
+
 # install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Good Luck :)
