@@ -24,10 +24,14 @@ export default {
   },
   methods: {
     customerSelected(customer) {
-      console.log(customer);
+      alert(`
+        Customer Selected:
+        id: ${customer.id}
+        name: ${customer.name}
+      `);
     },
     onChange(value) {
-      console.log(value);
+      // do something with the current value
     }
   },
   components: {
