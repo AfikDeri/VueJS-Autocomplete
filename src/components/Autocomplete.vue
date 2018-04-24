@@ -2,14 +2,15 @@
   <div class="autocomplete">
     <div class="input" @click="toggleVisible" v-text="selectedItem ? selectedItem[filterby] : ''"></div>
     <div class="placeholder" v-if="selectedItem == null" v-text="title"></div>
+    <button class="close" @click="selectedItem = null" v-if="selectedItem">x</button>
     <div class="popover" v-show="visible">
       <input type="text"
-      ref="input"
-      v-model="query"
-      @keydown.up="up"
-      @keydown.down="down"
-      @keydown.enter="selectItem"
-      placeholder="Start Typing...">
+        ref="input"
+        v-model="query"
+        @keydown.up="up"
+        @keydown.down="down"
+        @keydown.enter="selectItem"
+        placeholder="Start Typing...">
       <div class="options" ref="optionsList">
         <ul>
           <li v-for="(match, index) in matches"
@@ -127,10 +128,20 @@
     padding-top: 10px;
     cursor: text;
 }
+.close {
+    position: absolute;
+    right: 2px;
+    top: 4px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: lightgrey;
+    cursor: pointer;
+}
 .placeholder {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 11px;
+    left: 11px;
     font-size: 25px;
     color: #d0d0d0;
     pointer-events: none;

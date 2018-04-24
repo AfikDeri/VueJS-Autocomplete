@@ -24,11 +24,7 @@ export default {
   },
   methods: {
     customerSelected(customer) {
-      alert(`
-        Customer Selected:
-        id: ${customer.id}
-        name: ${customer.name}
-      `);
+      console.log(`Customer Selected:\nid: ${customer.id}\nname: ${customer.name}`);
     },
     onChange(value) {
       // do something with the current value
