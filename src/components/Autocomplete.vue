@@ -167,6 +167,14 @@
     cursor: pointer;
     background: #f1f1f1;
 }
+.options ul li:first-child {
+    border-top: 2px solid #d6d6d6;
+}
+
+.options ul li:not(.selected):hover {
+    background: #8c8c8c;
+    color: #fff;
+}
 .options ul li.selected {
     background: #58bd4c;
     color: #fff;
