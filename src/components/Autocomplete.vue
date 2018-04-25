@@ -14,7 +14,7 @@
       <div class="options" ref="optionsList">
         <ul>
           <li v-for="(match, index) in matches"
-            :key="match[filterby]"
+            :key="index"
             :class="{ 'selected': (selected == index)}"
             @click="itemClicked(index)"
             v-text="match[filterby]"></li>
