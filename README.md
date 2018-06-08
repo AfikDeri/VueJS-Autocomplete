@@ -1,4 +1,4 @@
-## Video Chat Application Example
+## Vue.JS 2 Autocomplete Component
 
 [Youtube Tutorial link](https://youtu.be/cuo9T6rc-VE)
 
